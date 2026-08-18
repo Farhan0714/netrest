@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌙 NetRest — Premium Sleep Technology
 
-## Getting Started
+> *Netflix reimagined as a luxury sleep brand.*
+> **Just. Close. Your. Eyes.**
 
-First, run the development server:
+## 🎯 The Concept
+
+What if Netflix — the platform that keeps you up all night binge-watching — was reimagined as a **luxury sleep technology brand**? NetRest takes the same obsessive attention to detail and applies it to something Netflix never could: helping you get the best sleep of your life.
+
+## ✨ Features
+
+- **Immersive Landing Page** — A single, beautifully designed page built with Next.js and Tailwind CSS
+- **Fully Responsive** — Looks stunning on mobile, tablet, and desktop
+- **Modern Design** — Glass morphism, gradient accents, animated star field, and smooth scroll effects
+- **Conversion-Focused** — Strategic CTAs, social proof, pricing tiers, and testimonials
+
+## 🏗️ Sections
+
+1. **Navbar** — Sticky glass-effect navigation with mobile menu
+2. **Hero** — Animated star field with powerful headline and social proof
+3. **Features** — 6 sleep technology features with glass cards
+4. **How It Works** — 4-step process to better sleep
+5. **Products** — 3 featured products with ratings and pricing
+6. **Testimonials** — 6 customer reviews with trust badges
+7. **Pricing** — 3 subscription tiers inspired by Netflix
+8. **CTA** — Email signup with final conversion push
+9. **Footer** — Full footer with navigation and social links
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Styling:** Tailwind CSS 4
+- **Language:** TypeScript
+- **Icons:** Lucide React
+- **Fonts:** Inter + Playfair Display (Google Fonts)
+
+## 🚀 Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/netrest.git
+cd netrest
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+netrest/
+├── src/
+│   ├── app/
+│   │   ├── globals.css      # Global styles and animations
+│   │   ├── layout.tsx       # Root layout with fonts and metadata
+│   │   └── page.tsx         # Main landing page
+│   └── components/
+│       ├── Navbar.tsx        # Sticky navigation
+│       ├── Hero.tsx          # Hero section with star field
+│       ├── Features.tsx      # Technology features
+│       ├── HowItWorks.tsx    # Step-by-step process
+│       ├── Products.tsx      # Product showcase
+│       ├── Testimonials.tsx  # Customer reviews
+│       ├── Pricing.tsx       # Subscription pricing
+│       ├── CTA.tsx           # Call to action
+│       ├── Footer.tsx        # Site footer
+│       └── ScrollReveal.tsx  # Scroll animation wrapper
+├── public/
+│   └── favicon.svg           # Custom moon favicon
+├── package.json
+├── tailwind.config.ts
+└── next.config.ts
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎨 Design Highlights
 
-## Learn More
+- **Color Palette:** Deep midnight navy, soft lavender, dream pink, warm gold
+- **Effects:** Glass morphism, gradient text, floating animations, glow effects
+- **Typography:** Clean Inter for body text, elegant Playfair Display for accents
+- **Animations:** Star field, pulse glow, float, shimmer, scroll reveals
 
-To learn more about Next.js, take a look at the following resources:
+## 📝 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This is a fictional brand created for the Front-End Development Internship Assignment.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Built with 💜 for better sleep*
